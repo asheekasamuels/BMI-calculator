@@ -24,8 +24,10 @@ body {
 .container {
     width: 60vh;
     height: 70vh;
-    border: 2px solid white;
+    border: 2px solid black;
     padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px black;
 }
 
 h2 {
@@ -37,7 +39,7 @@ h2 {
 button {
     display: block;
     margin: auto;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 10px;
     height: 50px;
     width: 70px;
@@ -80,8 +82,8 @@ input {
     height: 30px;
     width: 85%;
     background: transparent;
-    border-top: 2px solid white;
-    border-left: 2px solid white;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
     border-right: none;
     border-bottom: none;
     font-size: 16px;
@@ -92,7 +94,7 @@ p {
     padding: 15px;
 }
 ::placeholder {
-    color: white;
+    color: whitesmoke;
 }
 
 @media screen and (max-width: 430px) {
